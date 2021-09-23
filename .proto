@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package greet;
+option go_package="greetpb";
+
+// GreetRequest を受け取って GreetResponse を返すメソッドの定義
+service Greet {
+  rpc Greet (GreetRequest) returns (GreetResponse) {}
+}
+
+message Greeting {
+    string first_name = 1;
+    string last_name = 2;
+}
+
+// GreetRequest のリクエスト定義
+message GreetRequest {
+    Greeting greeting = 1;
+}
+
+// GreetResponse のリスポンス定義
+message GreetResponse {
+    string result = 1;
+}
