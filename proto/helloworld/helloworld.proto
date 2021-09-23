@@ -4,7 +4,7 @@ package helloworld;
 
 // なぜこれが必要になったかは以下の記事が分かりやすい
 // https://christina04.hatenablog.com/entry/protobuf-go-package-option
-// option go_package = "example.com/project/protos/fizz";
+option go_package = "example.com/project/protos/fizz";
 
 service Greeter {
   rpc SayHello(HelloRequest) returns (HelloReply);
