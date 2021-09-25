@@ -1,4 +1,4 @@
-module github.com/sk-develop/grpc-sample
+module github.com/sk-develop/grpc-sample/hello-api
 
 go 1.16
 

@@ -5,8 +5,11 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/sk-develop/grpc-sample/hello-proto"
-			
+	// pb "github.com/sk-develop/grpc-sample"
+	pb "github.com/sk-develop/grpc-sample/hello-api/hello-proto"
+	// ~/go/pkg/mod/
+	// github.com/sk-develop/grpc-sample/hello-api@v0.0.0-20210925042332-b8f6ab976a8b/hello-proto
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
