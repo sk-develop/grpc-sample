@@ -13,4 +13,3 @@ COPY --from=build /go/src/github.com/sk-develop/grpc-sample/hello-api/hello-api 
 
 EXPOSE 9090
 CMD ["hello-api"]
-

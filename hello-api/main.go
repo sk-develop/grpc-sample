@@ -42,13 +42,3 @@ func main() {
 	}
 }
 
-// 確認コマンド
-// grpc_cli call localhost:9090 hello.Greeter.SayHello 'name: "sk"'
-//  grpc_cli ls localhost:9090 hello.Greeter
-//  grpc_cli ls localhost:9090 hello.Greeter -l
-
-// 以下を参考にし、統合
-// Git:https://github.com/tech-with-moss/go-usermgmt-grpc/blob/main/usermgmt_server/usermgmt_server.go
-// Youtube:https://www.youtube.com/watch?v=YudT0nHvkkE
-// Git:https://github.com/yassun-youtube/grpc-web-sample/blob/master/api/server.go
-// Youtube:「 gRPC Web 」で gRPC 実践！ Go と gRPC で WebAPI を作ってみよう！！
